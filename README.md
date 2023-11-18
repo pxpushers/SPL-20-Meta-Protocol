@@ -6,7 +6,7 @@ SPL-20 is a new semi-fungible asset made possible by LibrePlex Solscriptions. An
 1. A master MCC NFT must be minted with the following deploy syntax choosing the ticker, setting the supply, and the amount contained within each inscription: ```{"p":"spl-20","op":"deploy","tick":"sols","max":"21000000","lim":"1000"}```
 2. Whoever deploys the MCC will also choose and image for the coin and make it publicy available for download. (They can host on their own or upload here if they like)
 3. Minters must download this image and mint it as a MetaPlex NFT using https://sol-tools.tonyboyle.io/nft-tools/edit-nft or https://biblio.tech/ or https://www.launchmynft.io/ (Do not use solscribe.io for SPL-20)
-   3A. Minters must upload the byte-perfect photo as the NFT image.
+3A. Minters must upload the byte-perfect photo as the NFT image.
    3B. For the NFT name syntax must perfectly match as follows: "1000 $SOLS" (The number has to perfectly match the value you specified for "lim", which can be any amount, even 1 for a fully fingible token).
    3C. For the NFT ticker minters must correctly spell the ticker from the deploy mint, this time WITHOUT the $ symbol, just "SOLS"
    3D. For the collection address, minters must use the MCC master NFT mint ID, which the project founders must make publicly available along with the image. The easiest way to do this is to save the image with the ID as the file name.
