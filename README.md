@@ -1,7 +1,7 @@
 # SPL-20-Meta-Protocol
 SPL-20 Standard for the Solscriptions Meta Protocol
 
-SPL-20 is a new semi-fungible asset made possilbe by LibrePlex Solscriptions. Anyone can deploy a SPL-20 token as long as they adhere to the protocol specifications below:
+SPL-20 is a new semi-fungible asset made possible by LibrePlex Solscriptions. Anyone can deploy a SPL-20 token as long as they adhere to the protocol specifications below:
 
 1. A master MCC NFT must be minted with the following deploy syntax choosing the ticker, setting the supply, and the amount contained within each inscription: ```{"p":"spl-20","op":"deploy","tick":"sols","max":"21000000","lim":"1000"}```
 2. Whoever deploys the MCC will also choose and image for the coin and make it publicy available for download. (They can host on their own or upload here if they like)
