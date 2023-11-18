@@ -1,4 +1,4 @@
-# SPL-20-Meta-Protocol
+# SPL-20 Meta-Protocol
 SPL-20 Standard for the Solscriptions Meta Protocol
 
 SPL-20 is a new open-source fungible asset made possible by LibrePlex Solscriptions. Anyone can deploy a SPL-20 token as long as they adhere to the protocol specifications below:
