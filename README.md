@@ -22,4 +22,4 @@ SPL-20 is a new open-source fungible asset made possible by LibrePlex Solscripti
    - Click Resize to change the account size.
    - Click Inscribe to add the txt data on chain.
    - Now that is complete and you can close the inscription modal. Click the magnifying glass on the inscription and set it to immutable.
-- **IMPORTANT** Submit your wallet address to the project creators for indexing (the wallet you used to mint that holds your inscriptions, if you used multiple send all of them).
+- **IMPORTANT** Project creators must index and submit the hash list of their verified collection to Tensor via create.tensor.trade to enable secondary trading.
