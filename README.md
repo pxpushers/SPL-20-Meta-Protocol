@@ -7,7 +7,7 @@ SPL-20 is a new open-source fungible asset made possible by LibrePlex Solscripti
 - Whoever deploys the MCC will also choose and image for the coin and make it publicy available for download. (They can host on their own or upload here if they like)
 - Minters must download this image and mint it as a MetaPlex NFT using https://sol-tools.tonyboyle.io/nft-tools/edit-nft or https://biblio.tech/ or https://www.launchmynft.io/ (Do not use solscribe.io for SPL-20)
    - Minters must upload the byte-perfect photo as the NFT image.
-   - For the NFT name syntax must perfectly match as follows: "1000 $SOLS" (The number has to perfectly match the value you specified for "lim", which can be any amount, even 1 for a fully fingible token).
+   - For the NFT name syntax must perfectly match as follows: "1000 $SOLS" (The number has to perfectly match the value you specified for "lim", which can be any amount, even 1 for a fully fungible token).
    - For the NFT ticker minters must correctly spell the ticker from the deploy mint, this time WITHOUT the $ symbol, just "SOLS"
    - For the collection address, minters must use the MCC master NFT mint ID, which the project founders must make publicly available along with the image. The easiest way to do this is to save the image with the ID as the file name.
    - 0% royalties is highly encouraged but they can be set to any % the project founders choose which would act as a tax on every sale. 
@@ -18,7 +18,7 @@ SPL-20 is a new open-source fungible asset made possible by LibrePlex Solscripti
    - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-20 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
    - **IMPORTANT** Upload a txt file instead of the NFT image with the following syntax, setting the "amt" value to the same as the deploys "lim" value. ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}```
-   - **IMPORTANT** Click update image or else it will cost much more in SOL rent to inscribe the data. Once you update the final byte size displayed should be about 50-60kb. The SOL rent will be 0.07 which is LibrePlex's minimum account size (they do not receive this fee, it     gets locked away forever)
+   - **IMPORTANT** Click update image or else it will cost much more in SOL rent to inscribe the data. Once you update the final byte size displayed should be about 50-60b. The SOL rent will be 0.07 which is LibrePlex's minimum account size (they do not receive this fee, it     gets locked away forever)
    - Click Resize to change the account size.
    - Click Inscribe to add the txt data on chain.
    - Now that is complete and you can close the inscription modal. Click the magnifying glass on the inscription and set it to immutable. That's it! You succesffuly minted 1000 $SOLS SPL-20 token.
