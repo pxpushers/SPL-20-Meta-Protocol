@@ -21,4 +21,5 @@ SPL-20 is a new open-source fungible asset made possible by LibrePlex Solscripti
    - **IMPORTANT** Click update image or else it will cost much more in SOL rent to inscribe the data. Once you update the final byte size displayed should be about 50-60b. The SOL rent will be 0.07 which is LibrePlex's minimum account size (they do not receive this fee, it     gets locked away forever)
    - Click Resize to change the account size.
    - Click Inscribe to add the txt data on chain.
-   - Now that is complete and you can close the inscription modal. Click the magnifying glass on the inscription and set it to immutable. That's it! You succesffuly minted 1000 $SOLS SPL-20 token.
+   - Now that is complete and you can close the inscription modal. Click the magnifying glass on the inscription and set it to immutable.
+- **IMPORTANT** Submit your wallet address to the project creators for indexing (the wallet you used to mint that holds your inscriptions, if you used multiple send all of them).
