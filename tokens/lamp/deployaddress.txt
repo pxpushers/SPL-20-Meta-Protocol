@@ -1,1 +1,1 @@
-{"p":"spl-20","op":"deploy","tick":"lamp","max":"10000000","lim":"100"}
+LAMPeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b
