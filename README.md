@@ -24,7 +24,7 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
 - That's it!
 
 **PROJECT CREATORS** if you are creating an SPL-20 fair-mint token follow these instructions:
-- Create a new wallet to serve as the deploy wallet. Save the public address as deployaddress.txt This will be used to index the collection. ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b```
+- Create a new wallet to serve as the deploy wallet. Save the public address as creator.txt This will be used to index the collection. ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b```
 - A master MCC NFT must be minted from this deploy wallet. Use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft". Include the following syntax choosing the ticker, setting the supply, and the amount contained within each mint inscription (set "lim" to 1 for a fully fungible token): ```{"p":"spl-20","op":"deploy","tick":"sols","max":"21000000","lim":"1000"}``` Ensure the royalties are set to 0% for the collection. Save this text as deploy.txt and addtionally save the mint ID of this master NFT as collection.txt This will also be used to index the collection. ```G4tVHkeptBw8bXXamYFbhw6wuwB1vnyS5XpGZDK78ak```
 - Make a file called inscribe.txt and include the following syntax for the mint inscription, setting the "amt" value to the same as the deploy's "lim" value. ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}```
 - Fork this repo and create a pull request after adding a folder with your ticker name and the following files inside (do not include the "$"). Ticker names must be unique but there is no character limit, aside from the character limit on the NFT name metadata field.
