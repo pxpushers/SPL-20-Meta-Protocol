@@ -21,7 +21,7 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
    - **IMPORTANT** Choose custom and upload the inscribe.txt file. Make sure to click update image after or it will not register the new file and it will instead inscribe the image and you'll be overcharged for rent. Do not inscribe the image.
    - Once you update the final byte size displayed should be about 50-60b. Click Resize to change the account size. The SOL rent will be 0.07 which is LibrePlex's minimum account size (they do not receive this fee, it gets locked away forever).
    - Click Inscribe to add the txt data on chain.
-   - Now that is complete and you can close the inscription modal. Click the magnifying glass. First ensure you see the txt contents being displayed, it should look something like this ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}``` If it does you can set it to       immutable. If you see the image twice, you inscribed the image. Go back to the upload and re-upload the txt file, click update image, then resize, then inscribe again, then had back to the scanner to reclaim the rent. THEN you can make it immutable. Once you make it          immutable you can never claim the rent back.
+   - Now that is complete and you can close the inscribe window. Click the magnifying glass. First ensure you see the txt contents being displayed, it should look something like this ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}``` If it does you can set it to       immutable. If you see the image twice, you inscribed the image. Go back to the upload and re-upload the txt file, click update image, then resize, then inscribe again, then had back to the scanner to reclaim the rent. THEN you can make it immutable. Once you make it immutable you can never claim the rent back.
 - That's it! All done, better hurry up and inscribe another one before they sell out!
 
 **PROJECT CREATORS** if you are creating an SPL-20 fair-mint token follow these instructions:
@@ -41,5 +41,5 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
    - Click update image or it will not register the newly uploaded file (the txt file should be about 70-80b).
    - Resize the account to fit the txt file. The SOL rent will be 0.07 which is LibrePlex's minimum account size (they do not receive this fee, it gets locked away forever).
    - Inscribe the txt file!
-   - Now that is complete and you can close the inscription modal. Click the magnifying glass on the inscription and set it to immutable. If you accidentally locked up too much rent you can reclaim it here, but only while it is mutable, once you make it immutable you can          never claim back the rent.
+   - Now that is complete and you can close the inscribe window. Click the magnifying glass on the inscription and set it to immutable. If you accidentally locked up too much rent you can reclaim it here, but only while it is mutable, once you make it immutable you can          never claim back the rent.
 - That's it! Your token is officially fair-launched, better hurry up and start minting!
