@@ -7,7 +7,7 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
 - Ensure the coin isn't sold out, for help you can head to the Libreplex discord https://discord.gg/6tDfht4qdB
 - Download the folder of the coin you want to mint it will contain all the files you need.
 - Use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
-   - **Image:** Upload the provided png or webp as the main NFT image. Do NOT upload an "Animation File" or "Multimedia" or any media other than the provided image file. **THIS STEP IS MANDATORY**
+   - **Image:** Upload the provided png or webp as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```$1000 SOLS``` (Ensure to include the $ symbol and that the number matches the "amt" value in the provided inscribe.txt file (1000 for SOLS, but can be any integer the project creators choose) and ensure the ticker name is spelled properly). **MANDATORY**
    - **SYMBOL:** ```SOLS``` (Ensure you do NOT incldue the $ symbol and that the ticker name is spelled properly). 
    - **ROYALTIES:** Set to 0% **MANDATORY**
