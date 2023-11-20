@@ -11,7 +11,7 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
    - **Name:** ```$1000 SOLS``` (Ensure to include the $ symbol and that the number matches the "amt" value in the provided inscribe.txt file (1000 for SOLS, but can be any integer the project creators choose) and ensure the ticker name is spelled properly). **MANDATORY**
    - **SYMBOL:** ```SOLS``` (Ensure you do NOT incldue the $ symbol and that the ticker name is spelled properly). 
    - **ROYALTIES:** Set to 0% **MANDATORY**
-   - **CREATORS:** ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b``` (Use the provided creator address within the deployaddress.txt file.) **MANDATORY**
+   - **CREATORS:** ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b``` (Use the provided creator address within the creator.txt file.) **MANDATORY**
    - **COLLECTION:** ```G4tVHkeptBw8bXXamYFbhw6wuwB1vnyS5XpGZDK78ak``` (Use the provided collection address within the collection.txt file.) **MANDATORY**
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.027 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
@@ -30,8 +30,8 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
 - Make a file called inscribe.txt and include the following syntax for the mint inscription, setting the "amt" value to the same as the deploy's "lim" value. ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}```
 - Fork this repo and create a pull request after adding a folder with your ticker name and the following files inside (do not include the "$"). Ticker names must be unique but there is no character limit, aside from the character limit on the NFT name metadata field.
    - A square image (png or webp) file for your token. It can optionally display the mint inscription JSON text.
-   - deployaddress.txt
    - collection.txt
+   - creator.txt
    - inscribe.txt
    - (No, you do NOT need to upload deploy.txt)
 - Once the PR has been merged the information is made public and you can launch whenever you like by inscribing the deploy NFT at "https://www.libreplex.io/inscriptions" we suggest not deploying sooner than this step or someone may see it being inscribed and try to front run the mint.
