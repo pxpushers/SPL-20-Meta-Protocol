@@ -9,7 +9,6 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
 - Use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
    - **Image:** Upload the provided png or webp as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```$1000 SOLS``` (Ensure to include the $ symbol and that the number matches the "amt" value in the provided inscribe.txt file (1000 for SOLS, but can be any integer the project creators choose) and ensure the ticker name is spelled properly). **MANDATORY**
-   - **SYMBOL:** ```SOLS``` (Ensure you do NOT incldue the $ symbol and that the ticker name is spelled properly). 
    - **ROYALTIES:** Set to 0% **MANDATORY**
    - **CREATORS:** ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b``` (Use the provided creator address within the creator.txt file.) **MANDATORY**
    - **COLLECTION:** ```G4tVHkeptBw8bXXamYFbhw6wuwB1vnyS5XpGZDK78ak``` (Use the provided collection address within the collection.txt file.) **MANDATORY**
