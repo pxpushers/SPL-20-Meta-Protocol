@@ -31,7 +31,6 @@ SPL-20 is a new open-source, fair launch fungible token standard made possible b
    - **Image:** Upload the provided png or webp as the main NFT image. Do NOT upload an "Animation File" or "Multimedia" or any media other than the provided image file. **THIS STEP IS MANDATORY**
    - **Name:** ```$1000 SOLS``` (Ensure to include the $ symbol and that the number matches the "amt" value in the provided inscribe.txt file (1000 for SOLS, but can be any integer the project creators choose) and ensure the ticker name is spelled properly). **MANDATORY**
    - **SYMBOL:** ```SOLS``` (Ensure you do NOT incldue the $ symbol and that the ticker name is spelled properly). 
-   - Description: ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}``` This step is optional
    - **ROYALTIES:** Set to 0% **MANDATORY**
    - **CREATORS:** ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b``` (Use the provided creator address within the deployaddress.txt file.) **MANDATORY**
    - **COLLECTION:** ```G4tVHkeptBw8bXXamYFbhw6wuwB1vnyS5XpGZDK78ak``` (Use the provided collection address within the collection.txt file.) **MANDATORY**
