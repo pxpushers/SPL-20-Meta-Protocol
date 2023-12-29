@@ -1,9 +1,9 @@
-# SPL-20 Meta Protocol
+# SPL20 Meta Protocol
 
-SPL-20 is a new open-source, fair launch fungible token meta protocol built on top of LibrePlex Solscriptions & Metaplex NFTs. Anyone can deploy an SPL-20 token as long as they adhere to the protocol specifications below. **NOT TO BE CONFUSED WITH SPL TOKENS, SPL-20 IS NOT IN ANY WAY AFFILATIED WITH THE SOLANA PROGRAM LIBRARY AND WAS NOT CREATED BY SOLANA LABS.**
+SPL20 is a new open-source, fair launch fungible token meta protocol built on top of LibrePlex Solscriptions & Metaplex NFTs. Anyone can deploy an SPL-20 token as long as they adhere to the protocol specifications below. **NOT TO BE CONFUSED WITH SPL TOKENS, SPL-20 IS NOT IN ANY WAY AFFILATIED WITH THE SOLANA PROGRAM LIBRARY AND WAS NOT CREATED BY SOLANA LABS.**
 
-**PROJECT CREATORS** if you are creating an SPL-20 fair-mint token follow these instructions:
-- A deploy inscription must first be inscribed to launch an SPL-20 token. Use the following JSON syntax to set the meta protocol (do not change), ticker name (any length), supply and limit value of each mint inscription (you determine these values) ```{"p":"spl-20","op":"deploy","tick":"sols","max":"21000000","lim":"1000"}``` Save this text as deploy.txt
+**PROJECT CREATORS** if you are creating an SPL20 fair-mint token follow these instructions:
+- A deploy inscription must first be inscribed to launch an SPL20 token. Use the following JSON syntax to set the meta protocol (do not change), ticker name (any length), supply and limit value of each mint inscription (you determine these values) ```{"p":"spl-20","op":"deploy","tick":"sols","max":"21000000","lim":"1000"}``` Save this text as deploy.txt
 - Mint an NFT with any tool of your liking using a logo image file as the artwork for the token (this logo will also be displayed when/if listed on DEX's, CEX's, price tracking applications, etc... (https://biblio.tech/tools/nft-suite, https://sol-tools.tonyboyle.io/nft-tools/create-nft)
 - Inscribe the deploy.txt text string as the on-chain art, by selecting "custom" when using LibrePlex's inscriber UI.
 - Make a file called inscribe.txt and include the following syntax for the mint inscription, setting the "amt" value to the same as the deploy's "lim" value, which represents the amount of tokens held in each SPL-20 NFT. ```{"p":"spl-20","op":"mint","tick":"sols","amt":"1000"}```
@@ -26,8 +26,8 @@ How to use LibrePlex to inscribe:
    - **ROYALTIES:** Set to 0% **MANDATORY**
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.027 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
-- Head to https://www.libreplex.io/inscriptions to inscribe the SPL-20 NFT.
-   - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-20 NFT you just made click the button that says "Create Inscription".
+- Head to https://www.libreplex.io/inscriptions to inscribe the SPL20 NFT.
+   - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL20 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
    - **IMPORTANT** Choose custom and upload the inscribe.txt file. Do not inscribe the image.
    - Once you update the final byte size displayed should be about 50-60b. Click Resize to change the account size. The SOL rent will gets locked away forever.
