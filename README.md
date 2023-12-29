@@ -1,6 +1,6 @@
 # SPL20 Meta Protocol
 
-SPL20 is a new open-source, fair launch fungible token meta protocol built on top of LibrePlex Solscriptions & Metaplex NFTs inspired by BRC20. Anyone can deploy an SPL20 token as long as they adhere to the protocol specifications below. **NOT TO BE CONFUSED WITH SPL TOKENS, SPL-20 IS NOT IN ANY WAY AFFILATIED WITH THE SOLANA PROGRAM LIBRARY AND WAS NOT CREATED BY SOLANA LABS.**
+SPL20 is a new open-source, fair launch fungible token meta protocol built on top of LibrePlex Solscriptions & Metaplex NFTs inspired by BRC20. Anyone can deploy an SPL20 token as long as they adhere to the protocol specifications below. **NOT TO BE CONFUSED WITH SPL TOKENS, SPL20 IS NOT IN ANY WAY AFFILATIED WITH THE SOLANA PROGRAM LIBRARY AND WAS NOT CREATED BY SOLANA LABS.**
 
 ## **PROJECT CREATORS** if you are creating an SPL20 fair-mint token follow these instructions:
 - A deploy inscription must first be inscribed to launch an SPL20 token. Use the following JSON syntax to set the meta protocol (do not change), ticker name (any length), supply and limit value of each mint inscription (you determine these values) ```{"p":"spl-20","op":"deploy","tick":"sols","max":"21000000","lim":"1000"}``` Save this text as deploy.txt
